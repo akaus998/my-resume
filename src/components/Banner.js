@@ -36,7 +36,7 @@ const Banner = () => {
         if(!isDeleting && updatedText === fullText){
             setIsDeleting(true);
             setDelta(period);
-        }else if (isDeleting && updatedText == ''){
+        }else if (isDeleting && updatedText === ''){
             setIsDeleting(false);
             setLoopNum(loopNum+1);
             setDelta(500);

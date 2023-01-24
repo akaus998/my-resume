@@ -6,8 +6,6 @@ import meter5 from "../assets/img/meter5.png";
 import meter6 from "../assets/img/meter6.png";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import arrow1 from "../assets/img/arrow1.svg";
-import arrow2 from "../assets/img/arrow2.svg";
 import colorSharp from "../assets/img/color-sharp.png"
 
 export const Skills = () => {
@@ -41,27 +39,27 @@ export const Skills = () => {
                         <p>"Skill is the unified force of experience,<br></br> Passion and Intellect in our Work."</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
-                                <img src={meter1} alt="Image" />
-                                <h5>React & Redux</h5>
+                                <img src={meter1} alt="reactImg" />
+                                <h5>React</h5>
                             </div>
                             <div className="item">
-                                <img src={meter2} alt="Image" />
+                                <img src={meter2} alt="javaImg" />
                                 <h5>Java</h5>
                             </div>
                             <div className="item">
-                                <img src={meter3} alt="Image" />
+                                <img src={meter3} alt="springImg" />
                                 <h5>Spring Boot</h5>
                             </div>
                             <div className="item">
-                                <img src={meter4} alt="Image" />
-                                <h5>My SQL</h5>
+                                <img src={meter4} alt="reduxImg" />
+                                <h5>Redux</h5>
                             </div>
                             <div className="item">
-                                <img src={meter5} alt="Image" />
+                                <img src={meter5} alt="htmlImg" />
                                 <h5>HTML</h5>
                             </div>
                             <div className="item">
-                                <img src={meter6} alt="Image" />
+                                <img src={meter6} alt="mongoImg" />
                                 <h5>Mongo DB</h5>
                             </div>
                         </Carousel>
